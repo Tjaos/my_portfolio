@@ -1,34 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { SiGithub } from "react-icons/si";
-import { ExternalLink } from "lucide-react";
+import { RiLinkM } from "react-icons/ri";
 
 export default function Projects() {
   const projects = [
     {
-      title: "BarberPro",
+      title: "Sistema de Pedidos Fast Food",
       description:
-        "Sistema completo para barbearias, com agendamento, painel de gerenciamento e dashboard financeiro.",
-      techs: ["Next.js", "Node.js", "PostgreSQL", "TailwindCSS"],
-      github: "https://github.com/seuusuario/barberpro",
-      demo: "#",
+        "Sistema completo para pedidos em lanchonetes com cadastro de restaurantes, produtos e criação de pedidos",
+      techs: ["Next.js", "Node.js", "PostgreSQL", "TailwindCSS", "Prisma"],
+      link: "https://github.com/Tjaos/fsw-donalds",
     },
     {
       title: "ComuniCAA",
       description:
-        "Aplicativo de comunicação alternativa voltado para pessoas com TEA, feito em Ionic + Angular.",
-      techs: ["Ionic", "Angular", "PokeAPI"],
-      github: "https://github.com/seuusuario/comunicaa",
-      demo: "#",
+        "Aplicativo de comunicação alternativa voltado para pessoas com TEA, feito em Spring Boot + React Native.",
+      techs: ["Java + Spring boot", "React Native", "API ARASAAC"],
+      link: "https://play.google.com/store/apps/details?id=com.comunicaa.app&hl=pt_BR",
     },
     {
-      title: "Portfolio",
-      description:
-        "Meu portfólio pessoal feito em Next.js com App Router, TailwindCSS e animações modernas.",
-      techs: ["Next.js", "TailwindCSS", "Framer Motion"],
-      github: "https://github.com/seuusuario/portfolio",
-      demo: "#",
+      title: "Oxefood",
+      description: "Sistema full stack de aplicativo de fast food",
+      techs: ["React.js", "Java + Spring boot"],
+      link: "https://github.com/Tjaos/oxefood-api-thiago",
     },
   ];
 
@@ -43,7 +38,7 @@ export default function Projects() {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Projetos
+          Alguns Projetos
         </h2>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -77,18 +72,11 @@ export default function Projects() {
 
               <div className="flex gap-4 mt-4">
                 <a
-                  href={project.github}
+                  href={project.link}
                   target="_blank"
                   className="flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
                 >
-                  <SiGithub className="w-5 h-5" /> GitHub
-                </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  className="flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
-                >
-                  <ExternalLink className="w-5 h-5" /> Demo
+                  <RiLinkM className="w-5 h-5" /> Acesse aqui
                 </a>
               </div>
             </motion.div>

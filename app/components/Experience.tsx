@@ -69,18 +69,20 @@ export default function Experience() {
             <Briefcase className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1" />
             <div>
               <h3 className="text-xl font-semibold">
-                Bootcamp Avanade - Back-end com .NET e IA
+                CESAR - Tutor de Tecnologia da Informação
               </h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                2025 · 84h de formação
+                2024 - atual
               </p>
               <p className="mt-2 text-gray-700 dark:text-gray-300">
-                Experiência prática em desenvolvimento back-end com .NET,
-                integração de IA e boas práticas de APIs.
+                Tutor EduTech pelo projeto Florescendo Talentos do Centro de
+                Estudos e Sistemas Avançados do Recife (CESAR) no curso de
+                Desenvolvimento web com <strong>Javascript, HTML e CSS</strong>{" "}
+                para alunos do ensino médio da rede pública de ensino do governo
+                de Pernambuco.
               </p>
             </div>
           </motion.div>
-
           <motion.div
             className="flex items-start gap-4"
             initial={{ opacity: 0, x: -50 }}
@@ -91,14 +93,49 @@ export default function Experience() {
             <Briefcase className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1" />
             <div>
               <h3 className="text-xl font-semibold">
-                Projetos pessoais (React, Node.js, Next.js)
+                IFPE - Integrante do grupo CAUTA (Computação Aplicada ao Uso de
+                Tecnologias Assistivas)
               </h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                2024 - Atual
+                2024.1 - 2025.2
               </p>
               <p className="mt-2 text-gray-700 dark:text-gray-300">
-                Desenvolvimento de aplicações full stack, integração com APIs e
-                práticas modernas de front-end e back-end.
+                Pesquisa, criação de literatura e desenvolvimento de uma
+                ferramenta que auxilia na comunicação de crianças e adolescentes
+                com autismo não verbal a se comunicarem através de figuras a fim
+                de tornar o uso acessível, gratuito e sem limitação de recursos.
+                Saiba mais em:{" "}
+                <a
+                  href="https://comunicaa.app.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 underline hover:text-blue-800 transition"
+                >
+                  <strong>Comunicaa.app.br</strong>
+                </a>
+              </p>
+            </div>
+          </motion.div>
+          <motion.div
+            className="flex items-start gap-4"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <Briefcase className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1" />
+            <div>
+              <h3 className="text-xl font-semibold">
+                Bootcamp Avanade - Back-end com .NET e IA
+              </h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
+                2025 · 84h de formação
+              </p>
+              <p className="mt-2 text-gray-700 dark:text-gray-300">
+                Experiência prática em desenvolvimento back-end com .NET,
+                integração de IA e boas práticas de APIs com a criação de um
+                projeto de microservices e uso de tecnologias de mensageria como
+                RabbitMQ, API Gateway.
               </p>
             </div>
           </motion.div>
