@@ -13,7 +13,7 @@ export default function Hero() {
         className="flex flex-col items-center"
       >
         <Image
-          src="/me.jpg" // coloque sua foto em public/me.jpg
+          src="/me.png"
           alt="Foto Thiago Amaral"
           width={160}
           height={160}
@@ -38,7 +38,7 @@ export default function Hero() {
             href="#contact"
             className="px-6 py-2 rounded-xl border border-white text-white font-semibold shadow hover:bg-gray-800 transition"
           >
-            Contato
+            Entre em Contato
           </a>
         </div>
       </motion.div>
