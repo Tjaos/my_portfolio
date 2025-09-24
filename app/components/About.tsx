@@ -23,7 +23,7 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <Image
-            src="/me.jpg"
+            src="/iamstudent.png"
             alt="Thiago Amaral"
             width={220}
             height={220}
@@ -40,17 +40,18 @@ export default function About() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre mim</h2>
           <p className="leading-relaxed text-lg">
-            Sou desenvolvedor apaixonado por criar soluções digitais que
-            realmente fazem diferença. Tenho experiência em{" "}
-            <strong>React, Node.js, TypeScript</strong> e estou sempre em busca
-            de aprender novas tecnologias. Gosto de transformar ideias em
-            projetos práticos e bem estruturados, unindo design responsivo,
-            performance e boas práticas de código.
+            Sou um desenvolvedor de sistemas full stack apaixonado por criar
+            soluções digitais que realmente fazem diferença. Tenho experiência
+            em <strong>React, TypeScript</strong> para frontend e{" "}
+            <strong>.NET, Java e Node.js </strong> para a criação de APIs. Estou
+            sempre em busca de aprender novas tecnologias. Gosto de transformar
+            ideias em projetos práticos, pois são com eles que aprendemos mais,
+            unindo design responsivo, performance e boas práticas de código.
           </p>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
             Fora do mundo da programação, gosto de aprender sobre inovação,
-            compartilhar conhecimento e contribuir para comunidades de
-            tecnologia.
+            compartilhar conhecimento e meus hobes são jogar futebol, jogar
+            jogos eletrônicos e fazer exercícios físicos.
           </p>
         </motion.div>
       </div>

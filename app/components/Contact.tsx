@@ -9,20 +9,20 @@ export default function Contact() {
     {
       icon: <SiGithub className="w-6 h-6" />,
       name: "GitHub",
-      href: "https://github.com/seuusuario",
+      href: "https://github.com/Tjaos",
       color:
         "bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-100",
     },
     {
       icon: <SiLinkedin className="w-6 h-6" />,
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/seuusuario",
+      href: "https://www.linkedin.com/in/thiagoamaraldev",
       color: "bg-blue-600 text-white hover:bg-blue-700",
     },
     {
       icon: <Mail className="w-6 h-6" />,
       name: "Email",
-      href: "mailto:seuemail@email.com",
+      href: "mailto:th83287716@gmail.com",
       color: "bg-red-600 text-white hover:bg-red-700",
     },
   ];
