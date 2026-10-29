@@ -6,8 +6,9 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 
 export const metadata = {
-  title: "Thiago Amaral | Portfólio",
-  description: "Portfólio de Thiago Amaral, desenvolvedor full stack",
+  title: "Thiago Amaral | Engenheiro de Software",
+  description:
+    "Portfólio de Thiago Amaral, engenheiro de software com experiência em Java, Spring, AWS e desenvolvimento de sistemas.",
 };
 export default function Home() {
   return (

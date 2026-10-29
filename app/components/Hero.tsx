@@ -21,11 +21,11 @@ export default function Hero() {
         />
         <h1 className="mt-6 text-4xl md:text-6xl font-bold">Thiago Amaral</h1>
         <h2 className="mt-2 text-lg md:text-2xl text-gray-300">
-          Desenvolvedor Full Stack
+          Engenheiro de Software · Java · Spring · AWS
         </h2>
         <p className="mt-4 max-w-xl text-gray-400">
-          Apaixonado por tecnologia, sempre aprendendo e construindo soluções
-          criativas com React, Node.js e muito mais.
+          Desenvolvo e mantenho sistemas, conectando tecnologia, observabilidade
+          e necessidades de negócio para criar soluções confiáveis.
         </p>
         <div className="mt-6 flex gap-4">
           <a
